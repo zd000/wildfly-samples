@@ -13,14 +13,14 @@
 	<url>https://github.com/kylinsoong</url>
 
 	<properties>
-		<maven.compiler.target>1.7</maven.compiler.target>
-		<maven.compiler.source>1.7</maven.compiler.source>
-		<compiler.plugin.version>2.3.1</compiler.plugin.version>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<compiler.plugin.version>3.1</compiler.plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
-		<version.wildfly>8.2.0.Final</version.wildfly>
+		<version.wildfly>10.1.0.Final</version.wildfly>
 		
-		<version.wildfly.core>2.0.0.Alpha5-SNAPSHOT</version.wildfly.core>
+		<version.wildfly.core>2.2.0.Final</version.wildfly.core>
 	</properties>
 
 	<dependencies>

@@ -20,7 +20,8 @@ import org.jboss.staxmapper.XMLMapper;
 
 public class ParserMain {
 	
-	private static final String XML = "/home/kylin/src/wildfly-core/build/target/wildfly-core-2.0.0.Alpha5-SNAPSHOT/standalone/configuration/standalone.xml";
+//	private static final String XML = "/home/kylin/src/wildfly-core/build/target/wildfly-core-2.0.0.Alpha5-SNAPSHOT/standalone/configuration/standalone.xml";
+	private static final String XML = "C:\\cygwin64\\home\\zhen.dong\\github\\wildfly-samples\\wildfly-core-debug\\standalone-simple.xml";
 
 	public static void main(String[] args) throws XMLStreamException, FactoryConfigurationError, IOException {
 		
