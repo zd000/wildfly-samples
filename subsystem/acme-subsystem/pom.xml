@@ -13,7 +13,7 @@
     
     <properties>
         <version.org.wildfly>10.0.0.Final</version.org.wildfly>
-        <version.org.wildfly.core>2.0.10.Final</version.org.wildfly.core>
+        <version.org.wildfly.core>2.2.0.Final</version.org.wildfly.core>
         <version.junit>4.11</version.junit>
         <version.jta>1.1</version.jta>
         <module.name>com.acme.corp.tracker</module.name>
@@ -100,7 +100,7 @@
       <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.1</version>
+                <version>3.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -131,7 +131,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <inherited>false</inherited>
-                <version>1.6</version>
+                <version>1.8</version>
                 <executions>
                     <execution>
                         <id>build-dist</id>
